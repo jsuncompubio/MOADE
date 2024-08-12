@@ -3,6 +3,9 @@
 This is a multimodal deep neural autoencoder framework that allows the input of more cell markers detectable in scRNA-seq reference and accounts for the between-tissue heterogeneity in target bulk data, without the requirement of feature annotation mapping across molecular modalities.
 
 ## Model Overview
+<p align="center">
+  <img width="60%" src="https://github.com/jsuncompubio/MODE/images/MODE_overview.png">
+</p>
 
 ## Install
 
