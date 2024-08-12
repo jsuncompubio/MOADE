@@ -26,8 +26,25 @@ cd MODE
 4. Gene length info: used to transform pseudo bulk RNA expression values (count to TPM/FPKM), see example in
 
 ### Parameters
+#### Input
+- `sc_rna`:
+- `real_bulk1`:
+- `real_bulk2`:
+- `omics1`:
+- `omics2`:
+- `genelenfile`:
 
- 
+#### JNMF initialization
+- `d_prior`:
+- `cell_type`:
+- `subj_var`:
+- `step_p`:
+- `step_s`:
+- `eps`:
+- `max_iter`:
+
+#### multimodal autoencoder
+- ``:
 
 ## Citation
 
