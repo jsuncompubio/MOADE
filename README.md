@@ -4,7 +4,7 @@ This is a multimodal deep neural autoencoder framework that allows the input of 
 
 ## Model Overview
 <p align="center">
-  <img width="60%" src="https://github.com/jsuncompubio/MODE/images/MODE_overview.png">
+  <img width="60%" src="[https://github.com/jsuncompubio/MODE/images/MODE_overview.png](https://github.com/jsuncompubio/MODE/blob/main/images/MODE_overview.png)">
 </p>
 
 ## Install
