@@ -44,7 +44,14 @@ cd MODE
 - `max_iter`:
 
 #### multimodal autoencoder
-- ``:
+- `sparse`:
+- `sparse_prob`:
+- `variance_threshold`: for non DNAm omics
+- `scaler`:
+- `datatype`: datatype of bulk RNA target
+- `batch_size`:
+- `epochs`:
+- `seed`:
 
 ## Citation
 
