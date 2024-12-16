@@ -1,6 +1,6 @@
 # MODE: multimodal deep autoencoder for high-resolution tissue dissociation
 
-This is a multimodal deep neural autoencoder framework that allows the input of more cell markers detectable in scRNA-seq reference and accounts for the between-tissue heterogeneity in target bulk data, without the requirement of feature annotation mapping across molecular modalities.
+This is a novel multimodal autoencoder framework with parallel decoders - to jointly purify CTS multi-omic profiles and estimate the multimodal cellular compositions. MODE allows the input of cell markers detectable in scRNA-seq reference and accounts for the between-tissue heterogeneity in target bulk data, without the requirement of feature annotation mapping across molecular modalities. MODE is trained on the large-scale pseudo bulk multiomes constructed by probabilistic data generation with an external scRNA-seq reference and individualized non-RNA reference panel recovered from the target bulk profile.
 
 ## Model Overview
 <p align="center">
