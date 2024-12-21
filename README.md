@@ -45,11 +45,15 @@ When pyMODE is installed, all the required dependencies will be installed automa
 ```python
 from MODE import Deconvolution
 
-SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPrediction2 = Deconvolution(sc_rna='sim_sc_ref.txt',
-real_bulk1='sim_bulk_rna.txt', real_bulk2='sim_bulk_prot.txt', omics1='RNAseq', omics2='Protein',
-d_prior=[4.226208, 8.187766, 1.592641, 16.311203], cell_type=['Astro', 'EN_Neuron', 'Microglia', 'Oligo'],
-subj_var=0.1, step_p=1e-5, step_s=1e-5, eps=1e-4, max_iter=500,
-sparse=True, sparse_prob=0.5, sep='\t', datatype='counts', genelenfile=None, batch_size=128, epochs=300)
+SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPrediction2 = \
+        Deconvolution(sc_rna='sim_sc_ref.txt', real_bulk1='sim_bulk_rna.txt', real_bulk2='sim_bulk_prot.txt',
+                      omics1='RNAseq', omics2='Protein',
+                      d_prior=[4.226208, 8.187766, 1.592641, 16.311203],
+                      cell_type=['Astro', 'EN_Neuron', 'Microglia', 'Oligo'],
+                      subj_var=0.1, step_p=1e-5, step_s=1e-5, eps=1e-4, max_iter=500,
+                      sparse=True, sparse_prob=0.5, sep='\t',
+                      datatype='counts', genelenfile=None,
+                      batch_size=128, epochs=300)
 ```
 
 ### Input data
