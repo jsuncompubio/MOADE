@@ -17,25 +17,24 @@ The MODE framework is implemented in python, the following environment is sugges
 [![numpy-1.19.2](https://img.shields.io/badge/numpy-1.19.2-red)](https://github.com/numpy/numpy) 
 [![pandas-1.1.5](https://img.shields.io/badge/pandas-1.1.5-lightgrey)](https://github.com/pandas-dev/pandas) [![scanpy-1.7.2](https://img.shields.io/badge/scanpy-1.7.2-blue)](https://github.com/theislab/scanpy) [![scikit__learn-0.24.2](https://img.shields.io/badge/scikit__learn-0.24.2-green)](https://github.com/scikit-learn/scikit-learn)
 
-The following steps are suggested: 
-### Create a virtual environment
+
+### Environment setup
+1. Create a virtual environment
   ```
   python -m venv <myenv>
   ```
   To activate the virtual environment:
-  for windows: ```.\<myenv>\Scripts\activate```
-  for Mac: ```source <myenv>/bin/activate```
+  ```source <myenv>/bin/activate```
 
-### Install pytorch:
+2. Install PyTorch:
   ```
   pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
   ```
 
-### Install MODE:
+### MODE installation:
   ```
   pip install pyMODE
-  ```
-  
+  ```  
   When pyMODE is installed, all the required dependencies will be installed automatically.
   
 Now you have created the environment for running MODE.
