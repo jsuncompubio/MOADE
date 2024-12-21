@@ -20,22 +20,24 @@ The MODE framework is implemented in python, the following environment is sugges
 
 ### Environment setup
 1. Create a virtual environment
-  ```
-  python -m venv <myenv>
-  ```
-  To activate the virtual environment:
-  ```source <myenv>/bin/activate```
+    ```
+    python -m venv <myenv>
+    ```
+    To activate the virtual environment:
+    ```
+    source <myenv>/bin/activate
+    ```
 
-2. Install PyTorch:
-  ```
-  pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
-  ```
+2. Install PyTorch
+    ```
+    pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+    ```
 
-### MODE installation:
-  ```
-  pip install pyMODE
-  ```  
-  When pyMODE is installed, all the required dependencies will be installed automatically.
+### MODE installation
+    ```
+    pip install pyMODE
+    ```  
+When pyMODE is installed, all the required dependencies will be installed automatically.
   
 Now you have created the environment for running MODE.
 
