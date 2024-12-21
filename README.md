@@ -10,6 +10,8 @@ This is a novel multimodal autoencoder framework with parallel decoders - to joi
 ## Setup
 
 1. Dependencies
+
+The MODE framework is implemented in python.
 ```
 git clone https://github.com/jsuncompubio/MODE
 ```
