@@ -38,13 +38,7 @@ MODE can be installed from PyPI:
     ```
     pip install pyMODE
     ```  
-When pyMODE is installed, all the required dependencies will be installed automatically.
-  
-Now you have created the environment for running MODE.
-
-
-
-
+When pyMODE is installed, all the required dependencies will be installed automatically. Now you have created the environment for running MODE.
 
 ## Usage
 
