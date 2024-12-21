@@ -8,6 +8,29 @@ This is a novel multimodal autoencoder framework with parallel decoders - to joi
 </p>
 
 ## Setup
+The required python version is 3.10.0 or higher.
+
+1. Create a virtual environment
+```
+python -m venv <myenv>
+```
+To activate the virtual environment:
+for windows: ```.\<myenv>\Scripts\activate```
+for Mac: ```source <myenv>/bin/activate```
+
+2. Install pytorch:
+```
+pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+3. Install MODE:
+```
+pip install pyMODE
+```
+
+When pyMODE is installed, all the required dependencies will be installed automatically.
+
+Now you have created the environment for running MODE.
 
 1. Dependencies
 
