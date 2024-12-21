@@ -7,9 +7,9 @@ This is a novel multimodal autoencoder framework with parallel decoders - to joi
   <img width="60%" src="https://github.com/jsuncompubio/MODE/blob/main/images/MODE_overview.png">
 </p>
 
-## Install
+## Setup
 
-1. Download our repository
+1. Dependencies
 ```
 git clone https://github.com/jsuncompubio/MODE
 ```
