@@ -11,10 +11,14 @@ This is a novel multimodal autoencoder framework with parallel decoders - to joi
 
 1. Dependencies
 
-The MODE framework is implemented in python.
-```
-git clone https://github.com/jsuncompubio/MODE
-```
+The MODE framework is implemented in python, the following environment is suggested:
+
+[![python >3.10](https://img.shields.io/badge/python-3.6.8-brightgreen)](https://www.python.org/) 
+[![torch >1.8.0](https://img.shields.io/badge/torch-1.10.2-orange)](https://github.com/pytorch/pytorch) 
+[![numpy-1.19.2](https://img.shields.io/badge/numpy-1.19.2-red)](https://github.com/numpy/numpy) 
+[![pandas-1.1.5](https://img.shields.io/badge/pandas-1.1.5-lightgrey)](https://github.com/pandas-dev/pandas) [![scanpy-1.7.2](https://img.shields.io/badge/scanpy-1.7.2-blue)](https://github.com/theislab/scanpy) [![scikit__learn-0.24.2](https://img.shields.io/badge/scikit__learn-0.24.2-green)](https://github.com/scikit-learn/scikit-learn)
+
+
 2. Setup environment
 ```
 conda env create -f environment.yaml
