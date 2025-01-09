@@ -7,8 +7,8 @@ from torch.optim import Adam
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, TensorDataset
 
-from model import simdatset, AutoEncoder, device
-from utils import showloss
+from .model import simdatset, AutoEncoder, device
+from .utils import showloss
 
 def reproducibility(seed=1):
     torch.manual_seed(seed)
