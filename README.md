@@ -36,7 +36,7 @@ The MODE framework is implemented in python, the following environment is sugges
 
 ### MODE installation
 
-Install from PyPI
+Install from PyPI:
     ```
     pip install MODEx
     ```  
