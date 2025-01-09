@@ -37,14 +37,12 @@ The MODE framework is implemented in python, the following environment is sugges
 ### MODE installation
 
 Install from PyPI:
-
-    ```
+    ```bash
     pip install MODEx
     ```  
     
-Once MODEx is installed, all the required dependencies will be installed automatically. Now you have created the environment for running MODE. To test the installation, try to import MODE in Python
-
-    ```
+Once MODE is installed, all the required dependencies will be installed automatically. Now you have created the environment for running MODE. To test the installation, try to import MODE in Python.
+    ```Python
     import MODE
     ```
 
