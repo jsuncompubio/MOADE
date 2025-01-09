@@ -5,7 +5,7 @@ For more details, please refer to the [paper](https://www.biorxiv.org/content/10
 
 ## Model Overview
 <p align="center">
-  <img width="60%" src="https://github.com/jsuncompubio/MODE/blob/main/images/MODE_overview.png">
+  <img width="80%" src="https://github.com/jsuncompubio/MODE/blob/main/images/MODE_overview.png">
 </p>
 
 ## Setup
@@ -37,14 +37,15 @@ The MODE framework is implemented in python, the following environment is sugges
 ### MODE installation
 
 Install from PyPI:
-    ```
-    pip install MODEx
-    ```  
+  ```
+  pip install MODEx
+  ```  
     
 Once MODE is installed, all the required dependencies will be installed automatically. Now you have created the environment for running MODE. To test the installation, try to import MODE in Python.
-    ```
-    import MODE
-    ```
+
+  ```python
+  import MODE
+  ```
 
 ## Usage
 
