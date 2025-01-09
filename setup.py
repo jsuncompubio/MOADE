@@ -15,7 +15,7 @@ required_packages = [
 setup(
     name = 'MODEx',
     version = '0.1.0',
-    packages = ['MODEx'],
+    packages = ['MODE'],
     description = 'a multimodal autoencoder framework for high-resolution multi-omic digital dissociation',
     author = 'Jiao Sun',
     author_email = 'jiao.sun@stjude.org',
