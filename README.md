@@ -93,4 +93,12 @@ SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPredict
 
 If you find MODE useful in your research and applications, please cite us:
 ```bibtex
+@article{sun2025high,
+  title={High-resolution digital dissociation of brain tumors with deep multimodal autoencoder},
+  author={Sun, Jiao and Pan, Yue and Lin, Tong and Smith, Kyle and Onar-Thomas, Arzu and Robinson, Giles W and Zhang, Wei and Northcott, Paul A and Li, Qian},
+  journal={bioRxiv},
+  pages={2025--01},
+  year={2025},
+  publisher={Cold Spring Harbor Laboratory}
+}
 ```
