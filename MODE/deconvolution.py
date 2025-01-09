@@ -1,11 +1,11 @@
 import anndata
 import numpy as np
 import pandas as pd
-from simulation import generate_simulated_data_omics1, generate_simulated_data_omics2
-from utils import ProcessInputData, process_purified_data
-from train import train_model, predict, reproducibility
-from model import AutoEncoder
-from jnmf import JointNMF
+from .simulation import generate_simulated_data_omics1, generate_simulated_data_omics2
+from .utils import ProcessInputData, process_purified_data
+from .train import train_model, predict, reproducibility
+from .model import AutoEncoder
+from .jnmf import JointNMF
 
 
 
