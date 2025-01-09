@@ -13,7 +13,7 @@ required_packages = [
 ]
 
 setup(
-    name = 'MODEx',
+    name = 'MODE-omics',
     version = '0.1.0',
     packages = ['MODE'],
     description = 'a multimodal autoencoder framework for high-resolution multi-omic digital dissociation',
