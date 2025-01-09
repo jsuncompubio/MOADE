@@ -14,7 +14,7 @@ required_packages = [
 
 setup(
     name = 'MODE-omics',
-    version = '0.1.0',
+    version = '0.1.1',
     packages = ['MODE'],
     description = 'a multimodal autoencoder framework for high-resolution multi-omic digital dissociation',
     author = 'Jiao Sun',
