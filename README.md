@@ -40,7 +40,7 @@ The MODE framework is implemented in python, the following environment is sugges
 
 Install from PyPI:
   ```
-  pip install MODEx
+  pip install MODE-omics
   ```  
     
 Now you have created the environment for running MODE. To test the installation, try to import MODE in Python.
