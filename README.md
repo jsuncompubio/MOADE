@@ -59,16 +59,16 @@ SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPredict
                       omics1='RNAseq', omics2='Protein',
                       d_prior=[4.226208, 8.187766, 1.592641, 16.311203],
                       cell_type=['Astro', 'EN_Neuron', 'Microglia', 'Oligo'],
-                      subj_var=0.1, step_p=1e-5, step_s=1e-5, eps=1e-4, max_iter=500,
+                      subj_var=0.05, step_p=1e-3, step_s=1e-5, eps=1e-4, max_iter=500,
                       sparse=True, sparse_prob=0.5, sep='\t',
                       datatype='counts', genelenfile=None,
-                      batch_size=128, epochs=300)
+                      batch_size=64, epochs=250)
 ```
 
 ### Input data
-1. Single cell RNAseq reference: cell by gene matrix in txt format
-2. Bulk RNA data: sample by gene matrix in txt format
-3. Bulk non-RNA data: sample by feature matrix in txt format
+1. Single cell RNAseq reference: cell by gene matrix in txt format, original expression scale
+2. Bulk RNA data: sample by gene matrix in txt format, original expression scale
+3. Bulk non-RNA data: sample by feature matrix in txt format, original expression scale
 
 ### Parameters
 #### Input
