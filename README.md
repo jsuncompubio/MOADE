@@ -55,7 +55,7 @@ Now you have created the environment for running MODE. To test the installation,
 from MODE import Deconvolution
 
 SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPrediction2 = \
-        Deconvolution(sc_rna='sim_sc_ref.txt', real_bulk1='sim_bulk_rna.txt', real_bulk2='sim_bulk_prot.txt',
+        Deconvolution(sc_rna='data/sim_sc_ref.txt', real_bulk1='data/sim_bulk_rna.txt', real_bulk2='data/sim_bulk_prot.txt',
                       omics1='RNAseq', omics2='Protein',
                       d_prior=[4.226208, 8.187766, 1.592641, 16.311203],
                       cell_type=['Astro', 'EN_Neuron', 'Microglia', 'Oligo'],
@@ -80,7 +80,13 @@ SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPredict
 - `genelenfile`: optional, used when target bulk RNA is in TPM or FPKM
 
 #### JNMF initialization
-- `d_prior`: a prior Dirichlet distribution estimated from multi-subject single cell data
+- `d_prior`: a prior Dirichlet distribution estimated from multi-subject single cell data, for example
+  ```r
+  library(dirmult)
+
+  est <- dirmult(cell_counts)  # cell_counts: sample by cell type matrix derived from external multi-subject single cell reference
+  d_prior <- est$gamma
+  ```
 - `cell_type`: a list of query cell type names, need to be the same as unique cell types in the scRNAseq reference and follow alphabet order
 - `subj_var`: between subject variance added to the prior Dirichlet distribution
 - `step_p`: step size in projected gradient descent for cell count fraction parameter
