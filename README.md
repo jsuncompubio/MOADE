@@ -80,10 +80,10 @@ SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPredict
 - `genelenfile`: optional, used when target bulk RNA is in TPM or FPKM
 
 #### JNMF initialization
-- `d_prior`: a prior Dirichlet distribution estimated from multi-subject single cell data, for example
+- `d_prior`: a prior parameter estimated by Dirichlet-Multinomial distribution from reference multi-subject cell counts per cell type, for example, using R script
   
   ```r
-  library(dirmult)
+  require(dirmult)
 
   est <- dirmult(cell_counts)  # cell_counts: sample by cell type matrix derived from external multi-subject single cell reference
   d_prior <- est$gamma
