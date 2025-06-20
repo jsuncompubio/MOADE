@@ -81,6 +81,7 @@ SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPredict
 
 #### JNMF initialization
 - `d_prior`: a prior Dirichlet distribution estimated from multi-subject single cell data, for example
+  
   ```r
   library(dirmult)
 
