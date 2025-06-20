@@ -66,8 +66,8 @@ SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPredict
 ```
 
 ### Input data
-1. Single cell RNAseq reference: cell by gene matrix in txt format, original expression scale
-2. Bulk RNA data: sample by gene matrix in txt format, original expression scale
+1. Single cell RNAseq reference: cell by gene matrix in txt format, original expression scale (raw count)
+2. Bulk RNA data: sample by gene matrix in txt format, original expression scale (raw count, TPM, or FPKM)
 3. Bulk non-RNA data: sample by feature matrix in txt format, original expression scale
 
 ### Parameters
