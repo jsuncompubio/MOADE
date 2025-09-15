@@ -5,13 +5,13 @@ For more details, please refer to the [paper](https://www.biorxiv.org/content/10
 
 ## Model Overview
 <p align="center">
-  <img width="80%" src="https://github.com/jsuncompubio/MODE/blob/main/images/MODE_overview.png">
+  <img width="80%" src="https://github.com/jsuncompubio/MODE/blob/main/images/MOADE_Overview.png">
 </p>
 
 ## Setup
 
 ### Dependencies
-The MODE framework is implemented in python, the following environment is suggested:
+The MOADE framework is implemented in python, the following environment is suggested:
 
 [![python >3.10](https://img.shields.io/badge/python-3.10-brightgreen)](https://www.python.org/) 
 [![torch >1.8.0](https://img.shields.io/badge/torch-1.8.0-orange)](https://github.com/pytorch/pytorch) 
@@ -32,18 +32,18 @@ The MODE framework is implemented in python, the following environment is sugges
 
 2. Install PyTorch
     ```
-    pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+    pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
     ```
-    MODE is developed using PyTorch. While PyTorch is included automatically when installing MODE, it is recommended that users manually install [PyTorch](https://pytorch.org/get-started/locally/) to offer more flexibility and better compatibility with the compute platform.
+    MOADE is developed using PyTorch. While PyTorch is included automatically when installing MOADE, it is recommended that users manually install [PyTorch](https://pytorch.org/get-started/locally/) to offer more flexibility and better compatibility with the compute platform.
 
-### MODE installation
+### MOADE installation
 
 Install from PyPI:
   ```
   pip install MODE-omics
   ```  
     
-Now you have created the environment for running MODE. To test the installation, try to import MODE in Python.
+Now you have created the environment for running MOADE. To test the installation, try to import MODE in Python.
 
   ```python
   import MODE
@@ -107,14 +107,12 @@ SignatureMatrix1, CellFractionPrediction1, SignatureMatrix2, CellFractionPredict
 
 ## Citation
 
-If you find MODE useful in your research and applications, please cite us:
+If you find MOADE useful in your research and applications, please cite us:
 ```bibtex
-@article{sun2025high,
-  title={High-resolution digital dissociation of brain tumors with deep multimodal autoencoder},
-  author={Sun, Jiao and Pan, Yue and Lin, Tong and Smith, Kyle and Onar-Thomas, Arzu and Robinson, Giles W and Zhang, Wei and Northcott, Paul A and Li, Qian},
+@article{sun2025mode,
+  title={MODE: high-resolution digital dissociation with deep multimodal autoencoder},
+  author={Sun, Jiao and Malik, Ayesha A and Lin, Tong and Bratton, Ayla and Pan, Yue and Smith, Kyle and Onar-Thomas, Arzu and Robinson, Giles W and Zhang, Wei and Northcott, Paul A and others},
   journal={bioRxiv},
-  pages={2025--01},
-  year={2025},
-  publisher={Cold Spring Harbor Laboratory}
+  year={2025}
 }
 ```
